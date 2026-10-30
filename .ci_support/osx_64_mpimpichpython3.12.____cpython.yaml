@@ -1,5 +1,3 @@
-MACOSX_DEPLOYMENT_TARGET:
-- '11.0'
 MACOSX_SDK_VERSION:
 - '11.0'
 channel_sources:
@@ -7,7 +5,7 @@ channel_sources:
 channel_targets:
 - conda-forge main
 llvm_openmp:
-- '19'
+- '21'
 macos_machine:
 - x86_64-apple-darwin13.4.0
 mpi:
@@ -15,7 +13,7 @@ mpi:
 mpich:
 - '4'
 openmpi:
-- '4'
+- '5'
 pin_run_as_build:
   python:
     min_pin: x.x
